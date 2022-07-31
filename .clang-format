@@ -1,0 +1,21 @@
+---
+  BasedOnStyle: Google
+  AccessModifierOffset: '-2'
+  AlignTrailingComments: 'true'
+  AllowAllParametersOfDeclarationOnNextLine: 'false'
+  AlwaysBreakTemplateDeclarations: 'Yes'
+  ReferenceAlignment: 'Left'
+  PointerAlignment: 'Left'
+  IncludeBlocks: Regroup
+  BreakBeforeBraces: Attach
+  ColumnLimit: '100'
+  ConstructorInitializerAllOnOneLineOrOnePerLine: 'true'
+  IndentPPDirectives: AfterHash
+  BasedOnStyle: LLVM
+  UseTab: Never
+  IndentWidth: 4
+  TabWidth: 4
+  NamespaceIndentation: All
+  BreakBeforeBinaryOperators: All
+  BreakBeforeTernaryOperators: 'true'
+...

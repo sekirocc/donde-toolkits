@@ -1,0 +1,22 @@
+If:
+  PathMatch: server/.*
+
+CompileFlags:
+  CompilationDatabase: build/server
+
+---
+
+If:
+  PathMatch: test/.*
+
+CompileFlags:
+  CompilationDatabase: build/test
+
+
+---
+
+If:
+  PathMatch: [include/.*, source/.*]
+
+CompileFlags:
+  CompilationDatabase: build

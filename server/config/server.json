@@ -1,0 +1,14 @@
+{
+    "title": "this is a toml document",
+
+    "device_id": "0",
+    "loglevel": "debug",
+
+    "server": {
+	"name": "FaceDetectService"
+    },
+
+    "pipeline": {
+
+    }
+}
